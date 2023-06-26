@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Utils*/
+
+.blue-button{
+    background-color:#0061FF;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+/*Header*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    list-style-type: none;
+    display: flex;
+    align-self:center;
+    padding: 20px 10px;
+    margin-right: 15px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
