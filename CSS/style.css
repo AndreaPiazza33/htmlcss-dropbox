@@ -12,18 +12,28 @@ img{
 
 
 /*Utils*/
+
 .medium-container{
     width: 1180px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.small-container{
+    width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .blue-button{
     background-color:#0061FF;
     color: white;
     padding: 5px 10px;
+    margin: 0 auto;
 }
 .text-box{
     display: flex;
@@ -35,9 +45,11 @@ img{
 
 
 /*Header*/
+
 header{
     position: fixed;
     top: 0;
+    background-color: white;
     width: 100%;
     justify-content: space-between;
     display: flex;
@@ -57,7 +69,10 @@ header ul{
     flex-wrap: nowrap;
 }
 
+
 /*Main*/
+
+/*First Section*/
 .big-title{
     font-size: 55px;
     display: flex;
@@ -67,7 +82,6 @@ header ul{
     background-color:#B4D0E7;
     margin-top: 70px;
 }
-
 .img-box{
     height: 400px;
     width: calc(100% / 2);
@@ -80,4 +94,58 @@ header ul{
 .text-box i{
     margin-top: 50px;
     font-size: 50px;
+}
+
+
+/*Second Section*/
+.small-container h2{
+    font-size: 30px;
+    margin: 50px 0;
+}
+.card-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.business-card{
+    width: calc(100% / 3 - 30px);
+    margin-top: 10px;
+    border: 2px solid /* #F8F8F8*/ gold;
+}
+.card-option{
+    border-bottom: 2px solid gold;
+    text-align: center;
+    padding: 10px 0;
+}
+.card-text{
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px auto;
+    line-height: 30px;
+}
+.gray-text{
+    color: gray;
+    margin-bottom: 10px;
+}
+.card-text li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+.blue-icon{
+    color: #0061FF;
+}
+.business-card .blue-button{
+    margin: 30px auto;
+}
+.business-card hr{
+    height: 2px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

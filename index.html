@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Dropbox</title>
 </head>
-<body><!--Header fixed con 2 div + Main con 7 Section + Footer a colonne-->
+<body><!--Header fixed con 2 div + Main con 8 Section + Footer a colonne-->
     <header><!--2 div formati da liste separati da spazio centrale -->
         <div>  
             <ul>
@@ -28,7 +28,9 @@
             </ul>
         </div>
     </header>
-    <main><!--7 sezioni con 3 contenitori diversi-->
+    <main><!--8 sezioni con 3 contenitori diversi-->
+
+        <!--Prima sezione con 3 div(titolo + testo + img)-->
         <section class="colored-section">
          <div class="medium-container">
             <div class="big-title">
@@ -44,6 +46,41 @@
                 <img src="./img/jumbo.png" alt="jumbo">
             </div>
          </div>
+        </section>
+
+        <!--seconda sezione con titolo e button + 4 cards-->
+        <section class="small-container">
+            <div>
+                <h2>Trova il piano business che fa per te</h2>
+                <input type="radio"><span>Fatturazione Mensile</span>
+                <input type="radio"><span>Fatturazione Annuale</span>
+            </div>
+            <div class="card-box">
+                <div class="business-card">
+                    <div class="card-option">
+                      <i class="fa-solid fa-user"></i><span>Singolo</span>
+                    </div>
+                    <div class="card-text">                
+                      <h3>Professional</h3>
+                      <span>&euro; 12.00</span>
+                      <span class="gray-text">/Mese</span>
+                      <ul>
+                         <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                         <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                         <li><i class="fa-solid fa-share-nodes"></i> funzioni di produttività premium e condivisione file semplice e sicura</li>
+                      </ul>
+                      <span class="blue-button">Prova gratis per 30 giorni</span>
+                      <span>oppure <a href="#">acquista ora</a></span>
+                    </div>
+                     <hr>
+                     <div class="card-text">
+                        <h4>Punti salienti del piano</h4>
+                        <span><i class="fa-solid fa-check blue-icon"></i> Invia file fino a 100 GB con Dropbox Transfer</span>
+                        <span><i class="fa-solid fa-check blue-icon"></i> Cartelle offline su dispositivi mobili</span>
+                     </div>
+                </div>
+            </div>
+            <div class="horizontal-card"></div>
         </section>
     </main>
 </body>
