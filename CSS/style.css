@@ -36,12 +36,20 @@ img{
     color: white;
     padding: 5px 15px;
 }
+
 .text-box{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: calc(100% / 3);
     align-items: flex-start;
+}
+
+.margin-top50{
+    margin-top: 50px;
+}
+.card-border{
+   border: 3px solid #F8F8F8; 
 }
 
 
@@ -75,22 +83,19 @@ header ul{
 
 /*First Section*/
 .big-title{
-    font-size: 55px;
+    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 .colored-section{
     background-color:#B4D0E7;
-    margin-top: 70px;
+    padding-top: 150px;
 }
 .img-box{
     height: 400px;
     width: calc(2 * 100% / 3);
     display: flex;
     align-items: end;
-}
-.text-box span{
-    margin-top: 50px;
 }
 .text-box i{
     margin-top: auto;
@@ -109,12 +114,11 @@ header ul{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
 }
+
 .business-card{
     width: calc(100% / 3 - 30px);
     margin-top: 10px;
-    border: 3px solid #F8F8F8;
 }
 .card-option{
     border-bottom: 3px solid #F8F8F8;
@@ -201,4 +205,17 @@ header ul{
 .bordered-gray{
     border: 2px solid black;
     padding: 5px 10px;
+}
+
+/*Fourth section*/
+.businessfeature-text{
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+.business-card img{
+    height: 250px;
 }
