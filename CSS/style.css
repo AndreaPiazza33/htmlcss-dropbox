@@ -108,6 +108,7 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 .business-card{
@@ -129,6 +130,21 @@ header ul{
     margin: 10px auto;
     line-height: 30px;
 }
+.blue-icon{
+    color: #0061FF;
+}
+.business-card .blue-button{
+    margin: 30px auto;
+    min-width: 210px;
+    text-align: center;
+}
+.business-card hr{
+    height: 2px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .gray-text{
     color: gray;
     margin-bottom: 10px;
@@ -137,16 +153,34 @@ header ul{
     list-style-type: none;
     margin: 10px 0;
 }
-.blue-icon{
-    color: #0061FF;
+.horizontal-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 45px;
+    border: 2px solid /* #F8F8F8*/ gold;
 }
-.business-card .blue-button{
-    margin: 30px auto;
+.horizontal-option{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid gold;
 }
-.business-card hr{
-    height: 2px;
-    width: 40px;
-    margin-left: 10px;
+.horizontal-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+.horizontal-text h4{
     margin-top: 30px;
-    margin-bottom: 30px;
+}
+.horizontal-text .blue-button{
+    text-align: center;
+    min-width: 270px;
+    margin: auto 20px;
+    padding: 10px 10px;
+}
+.horizontal-text p{
+    max-width: 600px;
+    font-size: 15px;
 }
