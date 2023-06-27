@@ -40,7 +40,7 @@ img{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: calc(100% / 2);
+    width: calc(100% / 3);
     align-items: flex-start;
 }
 
@@ -85,7 +85,7 @@ header ul{
 }
 .img-box{
     height: 400px;
-    width: calc(100% / 2);
+    width: calc(2 * 100% / 3);
     display: flex;
     align-items: end;
 }
