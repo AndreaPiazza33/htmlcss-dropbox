@@ -114,10 +114,10 @@ header ul{
 .business-card{
     width: calc(100% / 3 - 30px);
     margin-top: 10px;
-    border: 2px solid /* #F8F8F8*/ gold;
+    border: 3px solid #F8F8F8;
 }
 .card-option{
-    border-bottom: 2px solid gold;
+    border-bottom: 3px solid #F8F8F8;
     text-align: center;
     padding: 10px 0;
 }
@@ -158,12 +158,12 @@ header ul{
     flex-direction: column;
     width: 100%;
     margin: 45px 0;
-    border: 2px solid /* #F8F8F8*/ gold;
+    border: 3px solid #F8F8F8;
 }
 .horizontal-option{
     text-align: center;
     padding: 10px 0;
-    border-bottom: 2px solid gold;
+    border-bottom: 3px solid #F8F8F8;
 }
 .horizontal-text{
     display: flex;
