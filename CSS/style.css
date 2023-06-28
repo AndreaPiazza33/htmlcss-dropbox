@@ -317,9 +317,11 @@ header ul{
     background-color: #B4D0E7;
 }
 .full-colored-box{
+    width: 100%;
     background-color: #B4D0E7;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .colored-title{
     color: #61082B;
