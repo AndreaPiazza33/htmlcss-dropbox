@@ -219,3 +219,7 @@ header ul{
 .business-card img{
     height: 250px;
 }
+.businessfeature-text p{
+    margin-top: 30px;
+    font-size: 15px;
+}
