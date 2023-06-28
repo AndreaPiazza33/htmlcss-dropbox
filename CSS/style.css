@@ -51,7 +51,12 @@ img{
 .card-border{
    border: 3px solid #F8F8F8; 
 }
-
+.max-w600{
+    max-width: 600px;
+}
+.font-s15{
+    font-size: 15px;
+}
 
 /*Header*/
 
@@ -185,7 +190,6 @@ header ul{
     padding: 10px 10px;
 }
 .horizontal-text p{
-    max-width: 600px;
     font-size: 15px;
 }
 
@@ -200,7 +204,6 @@ header ul{
 }
 .text-box p{
     margin: 30px 0;
-    font-size: 15px;
 }
 .bordered-gray{
     border: 2px solid black;
@@ -217,9 +220,10 @@ header ul{
     margin: 10px auto;
 }
 .business-card img{
-    height: 250px;
+    height: 50%;
 }
 .businessfeature-text p{
     margin-top: 30px;
-    font-size: 15px;
 }
+
+
